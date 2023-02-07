@@ -12,6 +12,7 @@
 8. What is a Relational Database?
 9. What is SQL?
 10. Need for SQL
+11. SQL Commands, explained
 
 ## 1. What is Data?
 
