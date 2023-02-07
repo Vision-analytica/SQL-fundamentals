@@ -119,3 +119,79 @@ These items are organized as a set of "Tables" with "Columns" and "Rows".
 
 - Because of its popularity, multiple vendors started their own implementations of relational databases.
 - The need to develop one common language for managing both data and structures became necessary.
+
+
+## 11. SQL Commands, explained
+
+   - DDL
+   - DML
+   - DQL
+   - DCL
+   - TCL
+
+  ![image](https://user-images.githubusercontent.com/15100077/217216740-11156098-d4f6-4dce-80b9-7d2cb637926f.png)
+
+### 11.1. DDL
+  
+DDL  ➟  Data Definition Language
+
+- DDL commands are used to define the database schema.
+- DDL is a set of SQL commands that are used to create, modify, and delete database structures but not data.
+
+#### List of DDL Commands
+
+- CREATE: Used to create the database or its objects (like Table, Views, Stored Procedures, Index, etc.)
+- DROP: Used to delete objects from the database.
+- ALTER: Used to alter the structure of the database.
+- TRUNCATE: Used to remove all records from a table, including all spaces allocated for the records.
+- RENAME: Used to rename an object already existing in the database.
+- COMMENT: Used to add comments to the data dictionary.
+     
+### 11.2. DML
+
+DML  ➟  Data Manipulation Language
+
+- DML commands are used to manipulate the data present in the database.
+
+#### List of DML Commands
+
+- INSERT: Used to insert data into a table.
+- UPDATE: Used to update existing data within a table.
+- DELETE: Used to delete records from a database table.
+- LOCK: Used to control the concurrency on a table.
+- CALL: Used to call a PL/SQL code.
+- EXPLAIN PLAN: To describe the access path to data.
+
+### 11.3. DQL
+
+DQL  ➟  Data Query Language
+
+- DQL commands are used for performing queries on the data within schema objects.
+
+#### List of DQL Commands
+
+- SELECT: Used to retrieve data from the database.
+
+### 11.4. DCL
+
+DCL  ➟  Data Control Language
+
+- DCL commands mainly deal with the rights, permissions, and other controls of the database system.
+
+#### List of DCL Commands
+
+- GRANT: To give users access privileges to the database.
+- REVOKE: To withdraw the user’s access privileges.
+
+### 11.5. TCL
+
+TCL  ➟  Transaction Control Language
+
+- TCL commands deal with the transaction within the database.
+
+#### List of TCL Commands
+
+- COMMIT: Used to commit a transaction.
+- ROLLBACK: Used to rollback a transaction in case of any error occurs.
+- SAVEPOINT: Used to set a savepoint within a transaction.
+- SET TRANSACTION: Used to specify characteristics for the transaction.
