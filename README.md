@@ -2,7 +2,7 @@
 
 🗒️ Table of content
 
-1. What is Data?
+1. [What is Data?](#what-is-data?)
 2. Role of data in a program
 3. Data categories
 4. What is a Database?
