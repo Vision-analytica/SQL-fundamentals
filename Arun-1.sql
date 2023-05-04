@@ -14,6 +14,7 @@ CREATE TABLE student (
     major VARCHAR(20)
 );
 
+
 DESCRIBE student;
 
 DROP TABLE student;
