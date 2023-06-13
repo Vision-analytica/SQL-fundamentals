@@ -1,7 +1,5 @@
-# An introduction to SQL: a beginner's guide
-
 <div style="background-color: #1C7879; border: 2px solid #ddd; padding: 5px; text-align: left;">
-<h1>SQL (Structured Query Language) basics</h1>
+<h1>An introduction to SQL: a beginner's guide</h1>
     <ul>
         <li> SQL is a domain-specific programming language that is used to manage relational databases.</li>
         <li> It is designed for managing and querying data that is organized in a relational database management system (RDBMS).</li>
