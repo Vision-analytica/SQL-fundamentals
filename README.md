@@ -65,6 +65,36 @@ With the advantages of SQL, it also has some disadvantages, which are as follows
 - **Security concerns:** SQL databases can be vulnerable to SQL injection attacks, which can result in data loss or corruption.
 - **Performance issues:** SQL databases can experience performance issues, especially when complex queries are involved. This can be exacerbated when dealing with large data sets.
 
+### SQL (Relational) and NoSQL
+
+|       | RDBMS SQL	| NoSQL (Not only SQL) RDBMS|
+|-------|-------|---------------|
+| Data Model	| Relational	| Flexible, unstructured |
+| Query Language	| SQL	| Database-specific |
+| Type | database are table-based | database are documents based, key-value pairs, graph database |
+| Scalability	| Limited vertical	| Highly scalable horizontal |
+| ACID	| Supports ACID	| Eventual consistency, eventual transactions |
+| Schema	| Defined schema	| Dynamic schema |
+| Performance	| Good for complex queries	| Good for high volume, low latency |
+| Data Types	| Structured	| Unstructured, semi-structured |
+| Examples	| MySQL, PostgreSQL	| MongoDB, Cassandra, Redis |
+
+### MySQL and BigQuery
+
+MySQL and BigQuery are both relational database management systems (RDBMS), but they have several differences in terms of their architecture, functionality, and usage. Here are some of the key differences between MySQL and BigQuery:
+
+1. **Architecture:** MySQL is a traditional client-server RDBMS, which means it is installed on a server and users connect to it using a client application. On the other hand, BigQuery is a cloud-based data warehouse, which means it is hosted on Google Cloud and accessed through a web interface or API.
+
+2. **Scalability:** BigQuery is highly scalable and can handle petabytes of data, while MySQL is generally limited by the hardware it is installed on.
+
+3. Query Language: Both systems use SQL as their query language, but BigQuery has some additional functions and features that are specifically designed for working with large datasets.
+
+4. **Cost:** MySQL is open-source and free to use, while BigQuery is a paid service that charges based on the amount of data processed and storage used.
+
+5. **Use Cases:** MySQL is often used for small to medium-sized applications that require a traditional RDBMS, while BigQuery is designed for large-scale data warehousing and analytics projects.
+
+Overall, while both MySQL and BigQuery are RDBMS systems, they have different architectures, features, and use cases, and are often used for different types of projects.
+
 
 
 # 🗒️ Table of content
