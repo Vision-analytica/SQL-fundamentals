@@ -69,7 +69,7 @@ With the advantages of SQL, it also has some disadvantages, which are as follows
 
 
 
-🗒️ Table of content
+# 🗒️ Table of content
 
 1. What is Data?
 2. Role of data in a program
