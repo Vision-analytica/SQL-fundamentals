@@ -86,7 +86,9 @@ With the advantages of SQL, it also has some disadvantages, which are as follows
 - **Security concerns:** SQL databases can be vulnerable to SQL injection attacks, which can result in data loss or corruption.
 - **Performance issues:** SQL databases can experience performance issues, especially when complex queries are involved. This can be exacerbated when dealing with large data sets.
 
-## SQL (Relational) and NoSQL
+## Comparison
+
+### SQL (Relational) and NoSQL
 
 |       | RDBMS SQL	| NoSQL (Not only SQL) RDBMS|
 |-------|-------|---------------|
@@ -100,7 +102,7 @@ With the advantages of SQL, it also has some disadvantages, which are as follows
 | Data Types	| Structured	| Unstructured, semi-structured |
 | Examples	| MySQL, PostgreSQL	| MongoDB, Cassandra, Redis |
 
-## MySQL and BigQuery
+### MySQL and BigQuery
 
 MySQL and BigQuery are both relational database management systems (RDBMS), but they have several differences in terms of their architecture, functionality, and usage. Here are some of the key differences between MySQL and BigQuery:
 
