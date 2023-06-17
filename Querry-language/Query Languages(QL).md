@@ -18,6 +18,8 @@ These query languages offer different syntaxes, features, and capabilities, cate
 
 # An introduction to SQL: a beginner’s guide
 
+<img src="SQL-architech1.png" alt="Image Description" width="600" height="500">
+
 **Definition:** SQL (Structured Query Language) is a widely used programming language designed for managing and manipulating relational databases. It provides a standardized syntax and set of commands for creating, querying, modifying, and managing the data stored in a relational database management system (RDBMS). SQL allows users to interact with databases to retrieve, insert, update, and delete data, as well as perform various operations and transformations.
 
 ## Need of SQL 
