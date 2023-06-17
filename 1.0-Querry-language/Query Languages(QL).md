@@ -1,3 +1,16 @@
+🗒️ Table of content
+
+- Query Languages (QL)
+- Introduction to SQL
+- Need of SQL
+- Advantages of SQL
+- Disadvantages of SQL
+- Comparsions
+  - SQL and NoSQL
+  - MySQL and BigQuery
+- References
+
+------------
 # Query Languages (QL)
 
 Query Languages (QL) are programming languages specifically designed for querying and manipulating data in a database management system (DBMS). They provide a standardized syntax and set of commands to interact with the database and retrieve the desired information. Here are some commonly used query languages:
@@ -41,6 +54,71 @@ SQL (Structured Query Language) is essential for several reasons, making it a fu
 7. **Application Development:** SQL is often used in conjunction with programming languages to develop database-driven applications. Many programming languages provide APIs and libraries that allow SQL statements to be embedded in code, enabling seamless communication between the application and the database. SQL provides the necessary tools for developers to interact with databases, store and retrieve data, and perform database operations within their applications.
 
 Overall, SQL is crucial for effective data management, data analysis, data integration, and database administration. It provides a standardized and efficient way to work with relational databases, making it an essential tool for businesses and organizations that rely on structured data for their operations and decision-making processes.
+
+## Some of the advantages of SQL
+
+SQL (Structured Query Language) offers several advantages that make it a popular choice for working with relational databases. Here are some key advantages of SQL:
+
+- **Ease of Use:** SQL has a straightforward and easy-to-understand syntax, making it accessible to both beginners and experienced developers. Its declarative nature allows users to specify what data they want, rather than how to retrieve it. This simplicity reduces the learning curve and allows for efficient data manipulation and retrieval.
+
+- **Universal Standard:** SQL is a widely adopted standard for working with relational databases. It is supported by most relational database management systems (RDBMS), including popular ones like Oracle, MySQL, Microsoft SQL Server, PostgreSQL, and SQLite. The universal adoption of SQL means that skills and knowledge acquired in one database system can be easily transferred to another.
+
+- **Flexibility in Data Retrieval:** SQL offers powerful querying capabilities, allowing users to retrieve specific data from one or more tables using various criteria. With SQL's SELECT statement, you can filter, sort, aggregate, and join data, enabling complex data retrieval and analysis. This flexibility allows users to extract valuable insights from large datasets efficiently.
+
+- **Data Integrity and Security:** SQL provides mechanisms to enforce data integrity and ensure the accuracy and consistency of data. Constraints, such as primary keys, foreign keys, and unique constraints, maintain the relationships between tables and prevent the insertion of invalid data. SQL also supports user authentication, access control, and data encryption, ensuring data security and protection.
+
+- Scalability and Performance Optimization: SQL allows for efficient scaling of databases as data volumes grow. It supports indexing, which enhances data retrieval speed, and provides tools for query optimization and performance tuning. These features help improve the overall performance of database systems and ensure efficient handling of large datasets.
+
+- **Data Consistency and ACID Transactions:** SQL supports ACID (Atomicity, Consistency, Isolation, Durability) properties, which ensure that database transactions are reliable and consistent. ACID transactions guarantee that multiple operations either succeed entirely or fail entirely, maintaining data integrity and preventing partial or inconsistent updates.
+
+- **Integration with Programming Languages:** SQL can be seamlessly integrated with various programming languages through APIs and libraries. This integration allows developers to embed SQL statements within their code and interact with databases from their applications. It provides a standardized and efficient way to communicate with the database, store and retrieve data, and perform database operations.
+
+- **Data Analysis and Reporting:** SQL's querying capabilities make it well-suited for data analysis and reporting tasks. It enables users to aggregate, summarize, and transform data, supporting advanced analytics and generating meaningful insights. SQL can be used to generate customized reports, perform calculations, and visualize data for decision-making purposes.
+
+## Disadvantages of SQL
+
+With the advantages of SQL, it also has some disadvantages, which are as follows:
+
+- **Complexity:** SQL can be complex and difficult to learn, especially for those who are new to programming.
+- **Limited scalability:** SQL databases can struggle with scalability when it comes to handling large volumes of data, especially when compared to NoSQL databases.
+- **Limited flexibility:** SQL databases are designed to handle structured data, which means they may not be as flexible as NoSQL databases when it comes to handling unstructured or semi-structured data.
+- **Cost:** SQL databases can be expensive, especially when using commercial database management systems.
+- **Security concerns:** SQL databases can be vulnerable to SQL injection attacks, which can result in data loss or corruption.
+- **Performance issues:** SQL databases can experience performance issues, especially when complex queries are involved. This can be exacerbated when dealing with large data sets.
+
+## SQL (Relational) and NoSQL
+
+|       | RDBMS SQL	| NoSQL (Not only SQL) RDBMS|
+|-------|-------|---------------|
+| Data Model	| Relational	| Flexible, unstructured |
+| Query Language	| SQL	| Database-specific |
+| Type | database are table-based | database are documents based, key-value pairs, graph database |
+| Scalability	| Limited vertical	| Highly scalable horizontal |
+| ACID	| Supports ACID	| Eventual consistency, eventual transactions |
+| Schema	| Defined schema	| Dynamic schema |
+| Performance	| Good for complex queries	| Good for high volume, low latency |
+| Data Types	| Structured	| Unstructured, semi-structured |
+| Examples	| MySQL, PostgreSQL	| MongoDB, Cassandra, Redis |
+
+## MySQL and BigQuery
+
+MySQL and BigQuery are both relational database management systems (RDBMS), but they have several differences in terms of their architecture, functionality, and usage. Here are some of the key differences between MySQL and BigQuery:
+
+1. **Architecture:** MySQL is a traditional client-server RDBMS, which means it is installed on a server and users connect to it using a client application. On the other hand, BigQuery is a cloud-based data warehouse, which means it is hosted on Google Cloud and accessed through a web interface or API.
+
+2. **Scalability:** BigQuery is highly scalable and can handle petabytes of data, while MySQL is generally limited by the hardware it is installed on.
+
+3. Query Language: Both systems use SQL as their query language, but BigQuery has some additional functions and features that are specifically designed for working with large datasets.
+
+4. **Cost:** MySQL is open-source and free to use, while BigQuery is a paid service that charges based on the amount of data processed and storage used.
+
+5. **Use Cases:** MySQL is often used for small to medium-sized applications that require a traditional RDBMS, while BigQuery is designed for large-scale data warehousing and analytics projects.
+
+Overall, while both MySQL and BigQuery are RDBMS systems, they have different architectures, features, and use cases, and are often used for different types of projects.
+
+
+
+
 
 
 # Reference
