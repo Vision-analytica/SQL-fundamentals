@@ -118,8 +118,29 @@ MySQL and BigQuery are both relational database management systems (RDBMS), but 
 
 Overall, while both MySQL and BigQuery are RDBMS systems, they have different architectures, features, and use cases, and are often used for different types of projects.
 
+## SQL tools
 
+There are several SQL tools available that help developers, database administrators, and data analysts work with relational databases and execute SQL queries efficiently. These tools provide user-friendly interfaces, advanced functionalities, and productivity-enhancing features. Here are some commonly used SQL tools:
 
+1. **SQL Server Management Studio (SSMS):** SSMS is a graphical user interface (GUI) tool provided by Microsoft for managing and querying SQL Server databases. It offers a comprehensive set of features, including query editing, database administration, object management, data visualization, and performance tuning.
+
+2. **MySQL Workbench:** MySQL Workbench is an official graphical tool for MySQL database management. It provides a visual interface for designing and modeling databases, SQL development, and administration tasks. It includes features like query editing, database modeling, server configuration, and performance monitoring.
+
+3. **pgAdmin:** pgAdmin is a popular open-source administration and development platform for PostgreSQL databases. It offers a user-friendly GUI that enables users to manage databases, execute SQL queries, monitor performance, and perform various administrative tasks.
+
+4. **Oracle SQL Developer:** Oracle SQL Developer is a free graphical tool provided by Oracle for working with Oracle databases. It provides a complete integrated development environment (IDE) for database development, administration, and query execution. It includes features like query editing, schema browsing, debugging, and data modeling.
+
+5. **DBeaver:** DBeaver is a universal database tool that supports multiple database management systems, including MySQL, PostgreSQL, Oracle, SQL Server, and more. It provides a consistent interface for managing databases, executing queries, exploring data, and performing administrative tasks across different database platforms.
+
+6. **HeidiSQL:** HeidiSQL is a lightweight and user-friendly GUI tool for managing MySQL, MariaDB, Microsoft SQL Server, and PostgreSQL databases. It offers features like query editing, data browsing and editing, schema management, and user administration.
+
+7. **Toad for Oracle:** Toad for Oracle is a comprehensive toolset for Oracle database development and administration. It provides a rich set of features, including SQL editing, debugging, schema browsing, performance optimization, data modeling, and version control integration.
+
+8. **SQL Developer:** SQL Developer is a free tool provided by Oracle for working with Oracle databases. It offers a wide range of features for SQL development, database administration, and data modeling. SQL Developer provides a user-friendly interface for executing queries, managing database objects, and generating reports.
+
+9. **Navicat:** Navicat is a powerful database administration and development tool that supports various database management systems, including MySQL, PostgreSQL, Oracle, SQL Server, and more. It offers a rich set of features, including query building, data manipulation, data modeling, synchronization, and backup/restore capabilities.
+
+These are just a few examples of SQL tools available in the market. The choice of a SQL tool depends on the specific database management system being used, the required features and functionality, and personal preferences. Each tool has its own strengths and may cater to different user requirements and workflows.
 
 
 
